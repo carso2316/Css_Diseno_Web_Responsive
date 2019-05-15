@@ -1,0 +1,336 @@
+/*--- Body Rules ---*/
+* {
+    animation: slidein 1.5s;
+}
+
+body {
+    margin: 0px;
+    background-color: #02010a;
+    font-family: dancing script;
+}
+
+/*--- Contenedor General ---*/
+
+#contenido {
+    width: 900px;
+    margin: auto;
+}
+
+/*--- Header ---*/
+
+header {
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header h1 {
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    display: inline;
+    margin-left: 2%;
+
+
+
+}
+header nav {
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    word-spacing: 15px;
+}
+header nav a {
+    color: white;
+    font-size: 1em;
+}
+
+/*--- Body ---*/
+
+#sectionCentral {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    background-color: #d5c75f;
+}
+
+
+.containerRetrato {
+    width: 28%;
+    height: 400px;
+    float: left;
+    margin: 2% 2% 2% 2%;
+}
+
+#retratoImg1 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#retratoImg2 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#retratoImg3 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+}
+
+#retratoImg4 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#retratoImg5 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+}
+
+#retratoImg6 {
+    width: 100%;
+    box-shadow: 2px 2px 2px #02010a;
+    border: solid 1px;
+    margin: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*--- Footer--- */
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+    padding-top: 4%;
+}
+
+#containerFooter {
+    margin: auto;
+    margin: 0px 2%;
+    width: 96%;
+    height: 140px;
+}
+footer section div {
+    margin: auto;
+    float: left;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+footer section div b {
+    font-size: 2em;
+}
+
+#divFooter1 {
+    width: 25%;
+    height: 140px;
+    background-color: rgba(217, 134, 14, 0.1);
+}
+
+#divFooter2 {
+    width: 25%;
+    height: 140px;
+    background-color: rgba(247, 255, 0, 0.1);
+}
+
+#divFooter3 {
+    width: 25%;
+    height: 140px;
+    background-color: rgba(58, 231, 27, 0.1);
+}
+
+#twitterIcon {
+    width: 20px;
+}
+
+#instagramIcon {
+    width: 20px;
+}
+
+#facebookIcon {
+    width: 20px;
+}
+
+#divFooter4 {
+    width: 25%;
+    height: 140px;
+    background-color: rgba(33, 27, 231, 0.1);
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 900px) {
+    #contenido {
+        width: 100%;
+    }
+
+    header h1 {
+        text-align: center;
+        display: block;
+    }
+
+    header nav {
+        float: unset;
+        text-align: center;
+    }
+
+    #sectionCentral {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        background-color: #d5c75f;
+    }
+    
+    
+    .containerRetrato {
+        width: 90%;
+        height: auto;
+        float: unset;
+        margin: 2% 2% 2% 2%;
+    }
+    
+    #retratoImg1 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+    }
+    
+    #retratoImg2 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px;
+        -webkit-filter: sepia(90%);
+        filter: sepia(90%);
+    }
+    
+    #retratoImg3 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px;
+        -webkit-filter: unset;
+        filter: unset;
+    }
+    
+    #retratoImg4 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    
+    #retratoImg5 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    
+    #retratoImg6 {
+        width: 100%;
+        box-shadow: 2px 2px 2px #02010a;
+        border: solid 1px;
+        margin: 20px 10px 10px 10px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    footer {
+        width: 100%;
+        height: 470px;
+    }
+
+    footer section div {
+        float: unset;
+    }
+
+    footer section div b {
+        font-size: 2em;
+    }
+    
+    #divFooter1 {
+        width: 100%;
+        height: 120px;
+    }
+    
+    #divFooter2 {
+        width: 100%;
+        height: 100px;
+    }
+    
+    #divFooter3 {
+        width: 100%;
+        height: 130px;
+    }
+    
+    #twitterIcon {
+        width: 18px;
+    }
+    
+    #instagramIcon {
+        width: 18px;
+    }
+    
+    #facebookIcon {
+        width: 18px;
+    }
+    
+    #divFooter4 {
+        width: 100%;
+        height: 100px;
+    }
+
+
+}
+
+/*--- Keyframes ---*/
+
+@-webkit-keyframes slidein {
+    0% {
+        margin-top: 150%;
+
+    }
+    60% {
+        margin-top: -5%;
+
+    }
+    100% {
+        margin-top: 0%;
+
+    }
+}
